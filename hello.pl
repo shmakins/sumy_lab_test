@@ -1,4 +1,6 @@
 #!/usr/bin/perl
 
-printf "hello %s!\n", shift;
-print "How are you?\n";
+$name = shift;
+printf "hello %s!\n", $name;
+print "How are you, $name?\n";
+
